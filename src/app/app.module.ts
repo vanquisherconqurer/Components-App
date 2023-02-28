@@ -12,6 +12,8 @@ import { BadgeComponent } from './badge/badge.component';
 import {MatBadgeModule} from '@angular/material/badge';
 import {MatSlideToggleModule} from '@angular/material/slide-toggle';
 import {MatButtonModule} from '@angular/material/button';
+import { FormfieldComponent } from './formfield/formfield.component';
+import {MatFormFieldModule} from '@angular/material/form-field';
 
 
 
@@ -22,6 +24,7 @@ import {MatButtonModule} from '@angular/material/button';
     ToolbarComponent,
     CardComponent,
     BadgeComponent,
+    FormfieldComponent,
     
   ],
   imports: [
@@ -33,6 +36,7 @@ import {MatButtonModule} from '@angular/material/button';
     MatBadgeModule,
     MatSlideToggleModule,
     MatButtonModule,
+    MatFormFieldModule,
   
     
   ],

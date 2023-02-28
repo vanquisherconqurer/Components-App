@@ -6,6 +6,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { ToolbarComponent } from './toolbar/toolbar.component';
 import {MatIconModule} from '@angular/material/icon';
 import {MatToolbarModule} from '@angular/material/toolbar';
+import { CardComponent } from './card/card.component';
+import {MatCardModule} from '@angular/material/card';
 
 
 
@@ -14,6 +16,7 @@ import {MatToolbarModule} from '@angular/material/toolbar';
   declarations: [
     AppComponent,
     ToolbarComponent,
+    CardComponent,
     
   ],
   imports: [
@@ -21,6 +24,7 @@ import {MatToolbarModule} from '@angular/material/toolbar';
     AppRoutingModule,
     MatIconModule,
     MatToolbarModule,
+    MatCardModule,
   
     
   ],

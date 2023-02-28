@@ -8,6 +8,10 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import { CardComponent } from './card/card.component';
 import {MatCardModule} from '@angular/material/card';
+import { BadgeComponent } from './badge/badge.component';
+import {MatBadgeModule} from '@angular/material/badge';
+import {MatSlideToggleModule} from '@angular/material/slide-toggle';
+import {MatButtonModule} from '@angular/material/button';
 
 
 
@@ -17,6 +21,7 @@ import {MatCardModule} from '@angular/material/card';
     AppComponent,
     ToolbarComponent,
     CardComponent,
+    BadgeComponent,
     
   ],
   imports: [
@@ -25,6 +30,9 @@ import {MatCardModule} from '@angular/material/card';
     MatIconModule,
     MatToolbarModule,
     MatCardModule,
+    MatBadgeModule,
+    MatSlideToggleModule,
+    MatButtonModule,
   
     
   ],

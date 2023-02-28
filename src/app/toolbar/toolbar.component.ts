@@ -1,12 +1,10 @@
-import {Component} from '@angular/core';
-import {MatToolbarModule} from '@angular/material/toolbar';
+import { Component } from '@angular/core';
 
-/**
- * @title Basic toolbar
- */
 @Component({
-  selector: 'toolbar-basic-example',
-  templateUrl: 'toolbar-basic-example.html',
-  styleUrls: ['toolbar-basic-example.css'],
+  selector: 'app-toolbar',
+  templateUrl: './toolbar.component.html',
+  styleUrls: ['./toolbar.component.css']
 })
-export class ToolbarBasicExample {}
+export class ToolbarComponent {
+
+}
